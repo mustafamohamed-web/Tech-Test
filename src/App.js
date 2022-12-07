@@ -1,5 +1,6 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
+import Menu from "./components/Menu";
 const url =
   " https://dev.menu.ninja/api/menu/156?key=8j5vfe%24*pfb**rzt&pretty=1";
 function App() {
@@ -8,14 +9,19 @@ function App() {
   const getData = async () => {
     const response = await fetch(url);
     const data = await response.json();
-    console.log(data);
+    setInfo(data.menu.items);
+    console.log(data.menu.items);
   };
 
   useEffect(() => {
     getData();
-  }, []);
+  }, [url]);
 
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Menu info={info} />
+    </div>
+  );
 }
 
 export default App;
