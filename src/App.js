@@ -1,6 +1,7 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import Menu from "./components/Menu";
+import Form from "./components/Form";
 const url =
   " https://dev.menu.ninja/api/menu/156?key=8j5vfe%24*pfb**rzt&pretty=1";
 function App() {
@@ -20,6 +21,7 @@ function App() {
   return (
     <div className="App">
       <Menu info={info} />
+      <Form />
     </div>
   );
 }
