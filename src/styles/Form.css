@@ -71,7 +71,7 @@ textarea:focus {
 .form > button {
   padding: 20px;
   border: none;
-  background-color: rgb(2, 2, 110);
+  background-color: orange;
   font-weight: 500;
   font-size: 20px;
   border-radius: 3px;
@@ -79,8 +79,4 @@ textarea:focus {
   cursor: pointer;
   transition: 0.2s ease-in-out;
   margin-top: 10px;
-}
-
-.form > button:hover {
-  background-color: rgb(0, 0, 196);
 }

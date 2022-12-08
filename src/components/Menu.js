@@ -4,7 +4,7 @@ import "../styles/Menu.css";
 const Menu = ({ info }) => {
   return (
     <div className="wrapper">
-      <div class="title">
+      <div className="title">
         <h4>
           <span>fresh food for good health</span>our menu
         </h4>
