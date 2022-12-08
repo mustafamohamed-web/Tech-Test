@@ -11,14 +11,14 @@ const Menu = ({ info }) => {
       </div>
       <div className="menu">
         {info.map((val) => {
-          const { image, details, name } = val;
+          const { image, details, name, prices } = val;
           return (
             <div className="single-menu">
               <img src={image} />
               <div className="menu-content">
                 <h4>
                   {name}
-                  <span>$45</span>
+                  <span>£{prices.price.price}</span>
                 </h4>
                 <p>{details}</p>
               </div>

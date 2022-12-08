@@ -12,7 +12,7 @@ const Form = () => {
   const userCollectionRef = collection(db, "Tech-test");
 
   const handleSubmit = (e) => {
-    e.preventDefualt();
+    e.preventDefault();
     addDoc(userCollectionRef, {
       name: name,
       email: email,
