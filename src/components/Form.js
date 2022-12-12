@@ -1,66 +1,57 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/Form.css";
-import { addDoc, collection } from "firebase/firestore";
-import { db } from "../Firebase";
+import Validate from "./validate";
+import useForm from "./useForm";
 
 const Form = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [company, setCompany] = useState("");
-  const [message, setMessage] = useState("");
+  const { handleChange, handleRequest, values, errors } = useForm(Validate);
 
-  const userCollectionRef = collection(db, "Tech-test");
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    addDoc(userCollectionRef, {
-      name: name,
-      email: email,
-      compnay: company,
-      message: message,
-    })
-      .then(() => {
-        alert("Form has been submitted");
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-    setName("");
-    setEmail("");
-    setCompany("");
-    setMessage("");
-  };
   return (
-    <form className="form" onSubmit={handleSubmit}>
+    <form className="form" onSubmit={handleRequest}>
       <h1>Contact Form</h1>
 
-      <label htmlFor=""></label>
+      <label className="form-label"></label>
       <input
+        type="text"
+        name="person"
         placeholder="name"
-        value={name}
-        onChange={(e) => setName(e.target.value)}
+        value={values.person}
+        onChange={handleChange}
       />
 
-      <label htmlFor=""></label>
+      {errors.person && <p>{errors.person}</p>}
+
+      <label className="form-label"></label>
       <input
+        type="email"
+        name="email"
         placeholder="email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
+        value={values.email}
+        onChange={handleChange}
       />
+      {errors.email && <p>{errors.email}</p>}
 
-      <label htmlFor=""></label>
+      <label className="form-label"></label>
       <input
+        className="form-input"
+        type="text"
+        name="company"
         placeholder="company"
-        value={company}
-        onChange={(e) => setCompany(e.target.value)}
+        value={values.company}
+        onChange={handleChange}
       />
+      {errors.company && <p>{errors.company}</p>}
 
-      <label htmlFor=""></label>
+      <label className="form-label"></label>
       <textarea
+        type="text"
+        name="message"
         placeholder="message"
-        onChange={(e) => setMessage(e.target.value)}
+        value={values.message}
+        onChange={handleChange}
       />
-      <button>Submit</button>
+      {errors.message && <p>{errors.message}</p>}
+      <button type="submit">Submit</button>
     </form>
   );
 };

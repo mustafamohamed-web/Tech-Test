@@ -31,10 +31,12 @@ button {
   justify-content: center;
   width: 50%;
   margin: 0 auto;
+  color: orange;
 }
 
 .form > h1 {
   margin-bottom: 30px;
+  color: black;
 }
 
 .form > input,

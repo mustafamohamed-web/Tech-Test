@@ -1,0 +1,163 @@
+{
+  "name": "Breakfast",
+  "modified": "2021-04-16T11:44:15.325Z",
+  "image": "",
+  "created": "2021-04-16T10:37:43.400Z",
+  "accountId": "d3hKSp6xKAgDQ4hN5Hmm",
+  "details": "",
+  "active": true,
+  "mediaId": 1618569463400,
+  "id": "breakfast",
+  "items": [
+    {
+      "modified": "2022-04-13T11:03:01.506Z",
+      "active": true,
+      "importId": "",
+      "created": "2021-02-10T11:20:10.010Z",
+      "accountId": "d3hKSp6xKAgDQ4hN5Hmm",
+      "name": "Avocado & sun-blushed tomato on dough",
+      "details": "periam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis",
+      "image": "",
+      "itemTypeId": "q7HM01x86uUOLzOJK3dg",
+      "mediaId": 1612956010010,
+      "id": "b-first",
+      "attribs": "",
+      "type": "",
+      "prices": "5.95",
+      "nutrition": {
+        "values": {
+          "energykcal": {
+            "sizes": {
+              "standard": "xxxx"
+            }
+          }
+        }
+      }
+    },
+    {
+      "modified": "2022-04-13T11:03:01.506Z",
+      "active": true,
+      "importId": "",
+      "created": "2021-02-10T11:20:10.010Z",
+      "accountId": "d3hKSp6xKAgDQ4hN5Hmm",
+      "name": "Avocado & smoked salmon on sour dough",
+      "details": "Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.",
+      "image": "",
+      "itemTypeId": "q7HM01x86uUOLzOJK3dg",
+      "mediaId": 1612956010010,
+      "id": "b-second",
+      "attribs": "",
+      "type": "",
+      "prices": "5.95",
+      "nutrition": {
+        "values": {
+          "energykcal": {
+            "sizes": {
+              "standard": "xxxx"
+            }
+          }
+        }
+      }
+    },
+    {
+      "modified": "2022-04-13T11:03:01.506Z",
+      "active": true,
+      "importId": "",
+      "created": "2021-02-10T11:20:10.010Z",
+      "accountId": "d3hKSp6xKAgDQ4hN5Hmm",
+      "name": "Xxxx",
+      "details": "Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.",
+      "image": "",
+      "itemTypeId": "q7HM01x86uUOLzOJK3dg",
+      "mediaId": 1612956010010,
+      "id": "b-third",
+      "attribs": "",
+      "type": "",
+      "prices": "x.xx",
+      "nutrition": {
+        "values": {
+          "energykcal": {
+            "sizes": {
+              "standard": "xxxx"
+            }
+          }
+        }
+      }
+    },
+    {
+      "modified": "2022-04-13T11:03:01.506Z",
+      "active": true,
+      "importId": "",
+      "created": "2021-02-10T11:20:10.010Z",
+      "accountId": "d3hKSp6xKAgDQ4hN5Hmm",
+      "name": "Avocado & smoked salmon on sour dough",
+      "details": "Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.",
+      "image": "",
+      "itemTypeId": "q7HM01x86uUOLzOJK3dg",
+      "mediaId": 1612956010010,
+      "id": "b-second",
+      "attribs": "",
+      "type": "",
+      "prices": "5.95",
+      "nutrition": {
+        "values": {
+          "energykcal": {
+            "sizes": {
+              "standard": "xxxx"
+            }
+          }
+        }
+      }
+    },
+    {
+      "modified": "2022-04-13T11:03:01.506Z",
+      "active": true,
+      "importId": "",
+      "created": "2021-02-10T11:20:10.010Z",
+      "accountId": "d3hKSp6xKAgDQ4hN5Hmm",
+      "name": "Avocado & smoked salmon on sour dough",
+      "details": "Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.",
+      "image": "",
+      "itemTypeId": "q7HM01x86uUOLzOJK3dg",
+      "mediaId": 1612956010010,
+      "id": "b-second",
+      "attribs": "",
+      "type": "",
+      "prices": "5.95",
+      "nutrition": {
+        "values": {
+          "energykcal": {
+            "sizes": {
+              "standard": "xxxx"
+            }
+          }
+        }
+      }
+    },
+    {
+      "modified": "2022-04-13T11:03:01.506Z",
+      "active": true,
+      "importId": "",
+      "created": "2021-02-10T11:20:10.010Z",
+      "accountId": "d3hKSp6xKAgDQ4hN5Hmm",
+      "name": "Avocado & smoked salmon on sour dough",
+      "details": "Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.",
+      "image": "",
+      "itemTypeId": "q7HM01x86uUOLzOJK3dg",
+      "mediaId": 1612956010010,
+      "id": "b-second",
+      "attribs": "",
+      "type": "",
+      "prices": "5.95",
+      "nutrition": {
+        "values": {
+          "energykcal": {
+            "sizes": {
+              "standard": "xxxx"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
