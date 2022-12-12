@@ -31,9 +31,20 @@ const useForm = (validate) => {
   //   setValues("");
   // };
 
+  // const messagae = () => {
+  //   setTimeout(() => {
+  //     person.value = '',
+  //       email.value = '',
+  //       company.value = '',
+  //       message.value = '',
+
+  //   },2000)
+  // }
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setErrors(validate(values));
+    alert("form has been submitted");
     // handleRequest();
   };
   return { handleChange, handleSubmit, values, errors };

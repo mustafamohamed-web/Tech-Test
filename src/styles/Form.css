@@ -82,3 +82,18 @@ textarea:focus {
   transition: 0.2s ease-in-out;
   margin-top: 10px;
 }
+
+.message {
+  width: 100%;
+  position: relative;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.success {
+  font-size: 1rem;
+  color: green;
+  position: absolute;
+  animation: buttons 0.3s linear;
+}
