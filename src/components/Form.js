@@ -51,7 +51,7 @@ const Form = () => {
         onChange={handleChange}
       />
       {errors.message && <p>{errors.message}</p>}
-      <button type="submit">Submit</button>
+      <button type="submit">Submit!</button>
     </form>
   );
 };
