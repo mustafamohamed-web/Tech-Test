@@ -18,25 +18,25 @@ const useForm = (validate) => {
       [name]: value,
     });
   };
-  const userCollectionRef = collection(db, "Tech-test");
+  // const userCollectionRef = collection(db, "Tech-test");
 
-  const handleRequest = (e) => {
-    e.preventDefault();
-    addDoc(userCollectionRef, {
-      person: values.person,
-      email: values.email,
-      compnay: values.company,
-      message: values.message,
-    });
-    // ifalert("Form submitted");
-  };
+  // const handleRequest = () => {
+  //   addDoc(userCollectionRef, {
+  //     name: values.person,
+  //     email: values.email,
+  //     company: values.company,
+  //     message: values.message,
+  //   });
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   handleRequest();
-  //   setErrors(validate(values));
+  //   setValues("");
   // };
-  return { handleChange, values, handleRequest, errors };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setErrors(validate(values));
+    // handleRequest();
+  };
+  return { handleChange, handleSubmit, values, errors };
 };
 
 export default useForm;

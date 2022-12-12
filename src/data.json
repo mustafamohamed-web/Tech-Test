@@ -108,56 +108,6 @@
           }
         }
       }
-    },
-    {
-      "modified": "2022-04-13T11:03:01.506Z",
-      "active": true,
-      "importId": "",
-      "created": "2021-02-10T11:20:10.010Z",
-      "accountId": "d3hKSp6xKAgDQ4hN5Hmm",
-      "name": "Avocado & smoked salmon on sour dough",
-      "details": "Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.",
-      "image": "",
-      "itemTypeId": "q7HM01x86uUOLzOJK3dg",
-      "mediaId": 1612956010010,
-      "id": "b-second",
-      "attribs": "",
-      "type": "",
-      "prices": "5.95",
-      "nutrition": {
-        "values": {
-          "energykcal": {
-            "sizes": {
-              "standard": "xxxx"
-            }
-          }
-        }
-      }
-    },
-    {
-      "modified": "2022-04-13T11:03:01.506Z",
-      "active": true,
-      "importId": "",
-      "created": "2021-02-10T11:20:10.010Z",
-      "accountId": "d3hKSp6xKAgDQ4hN5Hmm",
-      "name": "Avocado & smoked salmon on sour dough",
-      "details": "Aperiam tempore sit,perferendis numquam repudiandae porro voluptate dicta saepe facilis.",
-      "image": "",
-      "itemTypeId": "q7HM01x86uUOLzOJK3dg",
-      "mediaId": 1612956010010,
-      "id": "b-second",
-      "attribs": "",
-      "type": "",
-      "prices": "5.95",
-      "nutrition": {
-        "values": {
-          "energykcal": {
-            "sizes": {
-              "standard": "xxxx"
-            }
-          }
-        }
-      }
     }
   ]
 }

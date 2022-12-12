@@ -4,10 +4,10 @@ import Validate from "./validate";
 import useForm from "./useForm";
 
 const Form = () => {
-  const { handleChange, handleRequest, values, errors } = useForm(Validate);
+  const { handleChange, handleSubmit, values, errors } = useForm(Validate);
 
   return (
-    <form className="form" onSubmit={handleRequest}>
+    <form className="form" onSubmit={handleSubmit}>
       <h1>Contact Form</h1>
 
       <label className="form-label"></label>
