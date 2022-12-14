@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+TECH-TEST
+This is a small project i was asked to build for a tech-test. I was asked to build a responsive menu layout along with a form where the user is able to enter name,email,company and a short message. The was required to have some validation and show a response message based on success or failure.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link to project: http://recruiters-love-seeing-live-demos.com/
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+How It's Made:
+Tech used: HTML, CSS, JavaScript, React, Firebase
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The first thing i did was connect to the api and make sure it was working i wanted to see what data was being used and what i needed to extract. Once i knew what i needed i began designing the menu layout and started populating the page with the api. Once i was happy with the design and the data extracted from the api i began to try make it responsive on different screens. I then began on the form and started on the validation to make sure the entered fields were correct.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Optimizations
 
-### `npm run build`
+One area where i was able to make my code slightly better was when i was making the different states for the input field i made a state for each input however one of the first lessons i was taught was to not repeat code. so i made one state which contained everything in an object. This reduced the amount of code by a lot and made it easier to read. I also learnt about the useForm hook which made reduced my code and made it much easier for people to read. i would call my functions in there then pass it into my form keeping my form component clean.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Lessons Learned:
+One of the main things i learnt was debugging and being able to read the errors on the console and really understand it. The better i get at that the better programmer i become. I also learnt a lot about firebase and how much fun it is to work with. Connecting to the database was really straight-forward and made things so much easier. However this is just the start and i hope to get much better at it.
