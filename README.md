@@ -6,20 +6,14 @@ This is a small project i was asked to build for a tech-test. I was asked to bui
 
 Link to project: http://recruiters-love-seeing-live-demos.com/
 
-
-
 How It's Made:
 Tech used: HTML, CSS, JavaScript, React, Firebase
 
 The first thing i did was connect to the api and make sure it was working i wanted to see what data was being used and what i needed to extract. Once i knew what i needed i began designing the menu layout and started populating the page with the api. Once i was happy with the design and the data extracted from the api i began to try make it responsive on different screens. I then began on the form and started on the validation to make sure the entered fields were correct.
 
-
-
 Optimizations
 
 One area where i was able to make my code slightly better was when i was making the different states for the input field i made a state for each input however one of the first lessons i was taught was to not repeat code. so i made one state which contained everything in an object. This reduced the amount of code by a lot and made it easier to read. I also learnt about the useForm hook which made reduced my code and made it much easier for people to read. i would call my functions in there then pass it into my form keeping my form component clean.
-
-
 
 Lessons Learned:
 One of the main things i learnt was debugging and being able to read the errors on the console and really understand it. The better i get at that the better programmer i become. I also learnt a lot about firebase and how much fun it is to work with. Connecting to the database was really straight-forward and made things so much easier. However this is just the start and i hope to get much better at it.

@@ -1,10 +1,10 @@
 import React from "react";
-import Image from "../assests/success.png";
+import Image from "../assests/main.png";
+import "../styles/FormSuccess.css";
 
 const FormSuccess = () => {
   return (
     <div className="form-success">
-      <p>Message has been successfully sent</p>
       <img src={Image} className="form-img" />
     </div>
   );
