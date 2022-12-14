@@ -4,7 +4,8 @@ import Validate from "./validate";
 import useForm from "./useForm";
 
 const Form = () => {
-  const { handleChange, handleSubmit, values, errors } = useForm(Validate);
+  const { handleChange, handleRequest, values, errors, handleSubmit } =
+    useForm(Validate);
 
   return (
     <form className="form" onSubmit={handleSubmit}>
@@ -51,7 +52,9 @@ const Form = () => {
         onChange={handleChange}
       />
       {errors.message && <p>{errors.message}</p>}
-      <button type="submit">Submit!</button>
+      <button type="submit" onClick={handleRequest}>
+        Submit!
+      </button>
     </form>
   );
 };

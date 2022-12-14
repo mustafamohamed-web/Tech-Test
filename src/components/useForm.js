@@ -18,36 +18,32 @@ const useForm = (validate) => {
       [name]: value,
     });
   };
-  // const userCollectionRef = collection(db, "Tech-test");
 
-  // const handleRequest = () => {
-  //   addDoc(userCollectionRef, {
-  //     name: values.person,
-  //     email: values.email,
-  //     company: values.company,
-  //     message: values.message,
-  //   });
-
-  //   setValues("");
-  // };
-
-  // const messagae = () => {
-  //   setTimeout(() => {
-  //     person.value = '',
-  //       email.value = '',
-  //       company.value = '',
-  //       message.value = '',
-
-  //   },2000)
-  // }
+  const handleRequest = async (e) => {
+    e.preventDefault();
+    if (values) {
+      await addDoc(collection(db, "firebase-test"), {
+        person: values.person,
+        email: values.email,
+        company: values.company,
+        message: values.message,
+      });
+      setValues("");
+    }
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setErrors(validate(values));
-    alert("form has been submitted");
-    // handleRequest();
   };
-  return { handleChange, handleSubmit, values, errors };
+
+  return {
+    handleChange,
+    values,
+    errors,
+    handleSubmit,
+    handleRequest,
+  };
 };
 
 export default useForm;
