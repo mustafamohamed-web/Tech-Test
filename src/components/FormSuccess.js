@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assests/main.png";
+import Image from "../assests/validate2.png";
 import "../styles/FormSuccess.css";
 
 const FormSuccess = () => {

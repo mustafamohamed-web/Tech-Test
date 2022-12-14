@@ -1,6 +1,8 @@
 .form-success {
+  width: 100%;
+  margin: 0 auto;
 }
 .form-img {
-  width: 45%;
+  width: 50%;
   margin-bottom: 30px;
 }

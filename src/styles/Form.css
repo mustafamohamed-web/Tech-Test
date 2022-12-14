@@ -98,8 +98,8 @@ textarea:focus {
   animation: buttons 0.3s linear;
 }
 
-@media screen and (min-width: 456px) {
-  .h1 {
-    color: red;
+@media screen and (max-width: 1160px) {
+  .form {
+    margin-top: 30em;
   }
 }

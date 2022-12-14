@@ -87,7 +87,7 @@ body {
 @media screen and (max-width: 1080px) {
   .menu {
     justify-content: center;
-    height: 80vh;
+    /* height: 100vh; */
   }
   .single-menu {
     flex-direction: column;
