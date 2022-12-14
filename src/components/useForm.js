@@ -1,8 +1,9 @@
-import { useState } from "react";
-import { addDoc, collection } from "firebase/firestore";
-import { db } from "../Firebase";
+import { useEffect, useState } from "react";
 
-const useForm = (validate) => {
+// import { addDoc, collection } from "firebase/firestore";
+// import { db } from "../Firebase";
+
+const useForm = (validate, callback) => {
   const [values, setValues] = useState({
     person: "",
     email: "",
@@ -10,6 +11,7 @@ const useForm = (validate) => {
     message: "",
   });
   const [errors, setErrors] = useState({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -19,31 +21,51 @@ const useForm = (validate) => {
     });
   };
 
-  const handleRequest = async (e) => {
-    e.preventDefault();
-    if (values) {
-      await addDoc(collection(db, "firebase-test"), {
-        person: values.person,
-        email: values.email,
-        company: values.company,
-        message: values.message,
-      });
-      setValues("");
-    }
-  };
+  // const handleRequest = async (e) => {
+  //   e.preventDefault();
+  //   if (values) {
+  //     await addDoc(collection(db, "tech-test"), {
+  //       person: values.person,
+  //       email: values.email,
+  //       company: values.company,
+  //       message: values.message,
+  //     });
+  //     setValues("");
+  //   }
+  // };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setErrors(validate(values));
+    setIsSubmitting(true);
   };
 
-  return {
-    handleChange,
-    values,
-    errors,
-    handleSubmit,
-    handleRequest,
-  };
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  //   let validationErrors = validate(values);
+  //   if (validationErrors) {
+  //     setErrors(validationErrors);
+  //   } else {
+  //     setErrors(null);
+
+  //     await addDoc(collection(db, "tech-test"), {
+  //       person: values.person,
+  //       email: values.email,
+  //       company: values.company,
+  //       message: values.message,
+  //     });
+
+  //     setValues("");
+  //   }
+  // };
+
+  useEffect(() => {
+    if (Object.keys(errors).length === 0 && isSubmitting) {
+      callback();
+    }
+  }, [errors]);
+
+  return { handleChange, handleSubmit, values, errors };
 };
 
 export default useForm;
