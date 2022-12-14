@@ -15,4 +15,4 @@ One of the main things i learnt was debugging and being able to read the errors 
 
 <img width="1391" alt="Screenshot 2022-12-14 at 15 43 45" src="https://user-images.githubusercontent.com/71928795/207641970-119bbad7-b938-4585-b5bd-4807b7f42d7a.png">
 <img width="849" alt="Screenshot 2022-12-14 at 15 43 54" src="https://user-images.githubusercontent.com/71928795/207641979-21e1c83d-818e-46f2-a5b4-352e9366acc9.png">
-<img width="665" alt="Screenshot 2022-12-14 at 18 25 36" src="https://user-images.githubusercontent.com/71928795/207678062-681cf640-1060-4e4a-a9df-2c0a9164b20b.png">
+
