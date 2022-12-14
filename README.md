@@ -1,3 +1,6 @@
+<img width="1391" alt="Screenshot 2022-12-14 at 15 43 45" src="https://user-images.githubusercontent.com/71928795/207641970-119bbad7-b938-4585-b5bd-4807b7f42d7a.png">
+<img width="849" alt="Screenshot 2022-12-14 at 15 43 54" src="https://user-images.githubusercontent.com/71928795/207641979-21e1c83d-818e-46f2-a5b4-352e9366acc9.png">
+
 TECH-TEST
 This is a small project i was asked to build for a tech-test. I was asked to build a responsive menu layout along with a form where the user is able to enter name,email,company and a short message. The was required to have some validation and show a response message based on success or failure.
 
