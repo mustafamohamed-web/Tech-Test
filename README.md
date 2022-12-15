@@ -3,6 +3,7 @@ This is a small project i was asked to build for a tech-test. I was asked to bui
 
 How It's Made:
 Tech used: HTML, CSS, JavaScript, React, Firebase
+Live Demo: https://mustafa-tech-test.netlify.app/
 
 The first thing i did was connect to the api and make sure it was working i wanted to see what data was being used and what i needed to extract. Once i knew what i needed i began designing the menu layout and started populating the page with the api. Once i was happy with the design and the data extracted from the api i began to try make it responsive on different screens. I then began on the form and started on the validation to make sure the entered fields were correct.
 
